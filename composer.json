@@ -1,0 +1,32 @@
+{
+    "name": "epfremme/issue_31",
+    "description": "Prisoner's dilemma battle bot",
+    "type": "challenge",
+    "authors": [
+        {
+            "name": "epfremme",
+            "email": "epfremme@nerdery.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPWeekly\\Issue36\\": "src/",
+            "PHPWeekly\\Issue36\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "ext-intl" : "*",
+        "epfremme/collections": "^1.0",
+        "myclabs/php-enum": "^1.4"
+    },
+    "require-dev": {
+        "php": ">=5.6",
+        "phpunit/phpcov": "^3.0",
+        "phpunit/phpunit": "^5.0",
+        "behat/behat": "^3.0"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
